@@ -1,9 +1,8 @@
-# TSEC_Mini-Project-2B---ESG-Score-Prediction-using-TensorFlow
+# React + Vite
 
-1. Developed a regression-based machine learning model using TensorFlow to predict ESG (Environmental, Social, and Governance) scores of companies. The model analyzed sustainability-related indicators to generate reliable predictions for corporate ESG performance.
-2. Performed feature engineering and selection to identify key variables impacting ESG scores, ensuring model transparency and accuracy.
-3. Implemented model evaluation metrics (R², MSE) to measure performance and optimize results.
-4. Designed a simple, user-friendly interface for real-time score predictions to make the system accessible and practical.
-5. Focused on scalability and explainability to support data-driven sustainability insights useful for decision-making.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Skills: Machine Learning, TensorFlow, Data Analysis, Regression Models, Feature Engineering, Model Evaluation
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

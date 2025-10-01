@@ -1,0 +1,78 @@
+/* Reset and full-height setup */
+/* html,
+body {
+  height: 100%;
+  margin: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+} */
+
+/* Center everything in the viewport */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(6, 6, 6);
+}
+
+/* Main container for the app */
+.App {
+
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  padding: 10px;
+  background: rgb(58, 58, 58);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Container for the form grid */
+.form-container {
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: fit-content;
+  margin-top: 20px;
+  height: 80%;
+}
+
+h1 {
+  margin: 10px;
+}
+
+/* Input group styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.input-group input {
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+/* Make the submit button span all columns and center it */
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  cursor: pointer;
+  grid-column: 1 / -1;
+}
+
+/* Prediction display */
+.prediction {
+  margin-top: 30px;
+  font-size: 1.4em;
+  color: green;
+}
